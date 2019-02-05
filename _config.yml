@@ -17,6 +17,7 @@ google_analytics: UA-72862926-1
 share:
   twitter_username: \#
   fb_appid: Hexagon.Abyssal
+  test: test
 
 
 enableTags: true
