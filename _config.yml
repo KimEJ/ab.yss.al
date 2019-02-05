@@ -1,9 +1,9 @@
-title: John Smith
-description: My Personal Blog
-author: John Smith
-logo: /hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/codeasashu
-about: Freelance developer
+title: Team Hexagon
+description: Team Hexagon Official Blog
+author: Eojin Kim
+logo: /static/img/teamLogo.png
+github: https://github.com/KimEJ
+about: Maker Team
 
 baseurl: ""
 url: ""
@@ -15,7 +15,7 @@ google_analytics: UA-72862926-1
 
 share:
   twitter_username: \#
-  fb_appid: 000000000000
+  fb_appid: Hexagon.Abyssal
 
 
 enableTags: true
