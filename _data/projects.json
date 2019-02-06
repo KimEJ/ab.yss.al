@@ -1,29 +1,29 @@
 [
 	{
-		"name": "Cool project 1",
-		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "Jan 2014",
-		"tags": ["Angular JS","API"]
+		"name": "우리민족 자주통일 로-케트",
+		"image": "roket.jpg",
+		"url": "https://www.facebook.com/Hexagon.Aby/",
+		"date": "Jan 2020",
+		"tags": ["CAD","ARM","Radio"]
 	},
 	{
-		"name": "Cool project 2",
-		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "May 2014",
-		"tags": ["Android","PHP"]
+		"name": "이쁜 상자",
+		"image": "cutebox.jpg",
+		"url": "https://hexag.imweb.me",
+		"date": "May 2018",
+		"tags": ["Box","Bicycle"]
 	},
 	{
-		"name": "Cool project 3",
-		"image": "placeholder.jpg",
+		"name": "태지나의 요리교실 - 미역국",
+		"image": "delicious.jpg",
 		"url": "#",
-		"date": "June 2014",
-		"tags": ["HTML","JQuery","PHP"]
+		"date": "Dec 2018",
+		"tags": ["Trot","Cook","ARM"]
 	},
 	{
-		"name": "Cool project 4",
+		"name": "쓸게 옶오요",
 		"image": "placeholder.jpg",
-		"date": "Oct 2016",
+		"date": "Oct 3021",
 		"tags": ["Android","nodejs"]
 	}
 
