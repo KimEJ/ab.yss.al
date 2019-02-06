@@ -9,20 +9,21 @@
 	{
 		"name": "이쁜 상자",
 		"image": "cutebox.jpg",
-		"url": "https://hexag.imweb.me",
+		"url": "/projects/cutebox",
 		"date": "May 2018",
 		"tags": ["Box","Bicycle"]
 	},
 	{
 		"name": "태지나의 요리교실 - 미역국",
 		"image": "delicious.jpg",
-		"url": "#",
+		"url": "/projects/seaweedsoup",
 		"date": "Dec 2018",
 		"tags": ["Trot","Cook","ARM"]
 	},
 	{
 		"name": "쓸게 옶오요",
 		"image": "placeholder.jpg",
+		"url": "/projects/nothing",
 		"date": "Oct 3021",
 		"tags": ["Android","nodejs"]
 	}
