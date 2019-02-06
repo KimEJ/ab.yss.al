@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 미역국
-permalink: /projects/seeweedsoup
+permalink: /projects/seaweedsoup
 ---
 
 # 마싯는 미역국
