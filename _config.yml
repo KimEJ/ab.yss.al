@@ -1,32 +1,63 @@
-title: Team Abyssal
-description: Team Abyssal Official Blog
-author: Eojin Kim
-team: Team Abyssal
-logo: /static/img/teamLogo.jpg
-github: https://github.com/KimEJ
-about: Maker Team
+title: Abyssal
+email: kimuj5090@yss.al
+description: |
+  심연으로의 여행
+baseurl: ''
+url: 'http://ab.yss.al'
+timezone: Asia/Seoul 
 
-baseurl: ""
-url: ""
+repository: KimEJ/ab.yss.al
 
-allowsearch: true
+permalink: /:year/:month/:day/:title/
 
-disqus_shortname: kimuj5090
-google_analytics: UA-72862926-1
+excerpt_separator: <!--more-->
 
-share:
-  twitter_username: \#
-  fb_appid: Hexagon.Abyssal
-  test: test
-
-
-enableTags: true
-tagarray: []
-
-paginate: 20
-per_page: 20
-paginate_path: "/page:num/"
 markdown: kramdown
-gems: [jekyll-paginate, jekyll-gist]
 
-theme: jekyll-theme-cayman
+krandown:
+  input: GFM
+  highlighter: rouge
+
+plugins:
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: '/blog/:num/'
+
+collections:
+  authors:
+    output: true
+    permalink: /authors/:path/
+  tags:
+    output: true
+    permalink: /tags/:path/
+
+defaults:
+  - scope:
+      path: ''
+      type: authors
+    values:
+      layout: author
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
+
+exclude: [README.md, Gemfile, Gemfile.lock]
+
+keep_files: [assets, files]
+github: [metadata]
+# iolo's custom
+author: kimuj5090@yss.al
+image: '/assets/images/cover/default_blog_cover.jpg'
+asset_url: /assets
+google_analytics:
+  ua: 'UA-137360712-1'
+facebook:
+  app_id: '1204347326263800'
+  username: KOR.Abyssal
+#twitter:
+#  username: abyssal
+github_url:
+  username: Abyssal-workspace

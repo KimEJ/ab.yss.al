@@ -1,11 +1,16 @@
 ---
 layout: default
 ---
-<div class="well">
-    {% if page.subtitle %}
-    <h4 class="home-subtitle">{{ page.subtitle }}</h4>
-    {% endif %}
+<div id="cover" class="container-fluid"
+     {% if page.image %}style="background-image: url({{ page.image }});"{% endif %}>
     <div>
-    	{{ content }}
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.description | newline_to_br }}</p>
+    </div>
+</div>
+
+<div id="content" class="container">
+    <div id="post-content" class="post page" role="main">
+        {{ content }}
     </div>
 </div>

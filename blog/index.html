@@ -1,0 +1,14 @@
+---
+layout: blogs
+title: Blog
+description: Abyssal의 이야기
+permalink: /blog/
+image: /assets/images/cover/blog.jpg
+sitemap: yes
+---
+<ul id="post-list">
+    {% for post in paginator.posts %}
+        {% include item.html %}
+    {% endfor %}
+</ul>
+{% include pagination.html %}

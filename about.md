@@ -2,12 +2,10 @@
 layout: page
 title: About
 permalink: /about/
+image: /assets/images/cover/blog.jpg
+sitemap: yes
+tags: [about]
 ---
 
-# Team Hexagon
-
-## 이름 너모 머찐것
-
-### 아비샬이랑 짬뽕되었는데 로켓날리는건 언제하나여
-
+Powered by [GitHub Pages](https://pages.github.com), [Jekyll](https://jekyllrb.com) and [kakao](http://www.kakaocorp.com).
 
